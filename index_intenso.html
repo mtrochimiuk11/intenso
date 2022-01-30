@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon Optyczny Intenso</title>
+    <link href="dist/main.css" rel="stylesheet">
+    <link href="node_modules/lightbox2/dist/css/lightbox.css" rel="stylesheet">
+</head>
+
+<body>
+    <div clas="wrapper">
+        <header>
+            <nav class="d-flex flex-wrap container-lg align-items-center justify-content-xl-around">
+                <div
+                    class="container-fluid row justify-content-between align-items-center d-lg-none d-xl-flex order-xl-2 col-xl-1 menu_bar">
+                    <a href="#"><img class="logo" src="src/images/logo.png" alt="logo intenso"></a>
+                    <div class="menu_icon d-lg-none">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                <div
+                    class="navbar-collapse row justify-content-center justify-content-lg-start align-items-end container-lg d-none d-lg-flex col-xl-8">
+                    <ul class="nav-list order-xl-1">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">START</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#o_nas">O NAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#galeria">GALERIA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#kontakt">KONTAKT</a>
+                        </li>
+                    </ul>
+                    <div class="d-none d-lg-flex align-items-start d-xl-none order-lg-3 ">
+                        <a href="#"><img class="logo_medium" src="src/images/logo.png" alt="logo intenso"></a>
+                    </div>
+                </div>
+                <div class="order-xl-3 d-none d-xl-flex col-xl-2 align-items-center justify-content-end italy_design">
+                    <img class="d-none d-xl-block" src="src/images/flag.png" alt="ikona w kolorach flagii Włoch">
+                    <p class="d-none d-xl-block">designed in Italy</p>
+                </div>
+            </nav>
+            <div class="row top_photo justify-content-center">
+                <picture>
+                    <source media="(max-width: 991px)" srcset="src/images/foto_top.png">
+                    <source media="(min-width: 992px)" srcset="src/images/foto_top_big.png">
+                    <img src="src/images/foto_top.png"
+                        alt="zdjęcie tła, męzczyzna w okularach lezący przy rozrzuconych rzeczach">
+                </picture>
+                <h1>NASZ DESIGN<br><span>TWÓJ STYL</span></h1>
+            </div>
+        </header>
+
+        <section id="o_nas">
+            <div class="container-xxl row justify-content-center">
+                <img class="col-lg-5" src="src/images/intenso_mirror.png">
+                <div class="description d-flex flex-column col-lg-5">
+                    <h4>LOREM IPSUM DOLOR</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et
+                        dolore
+                        magna aliqua. Sem viverra aliquet eget sit amet tellus cras. Sapien faucibus et molestie ac
+                        feugiat
+                        sed
+                        lectus vestibulum. Tincidunt vitae semper quis lectus nulla at volutpat diam. Natoque penatibus
+                        et
+                        magnis
+                        dis parturient montes.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria">
+            <div class="gallery_wrapper row">
+                <a class="col-6 col-xl-2 fot_0pad" href="src/images/galeria1.png" data-lightbox="gallery"><img
+                        class="fot1" src="src/images/galeria1.png"></a>
+                <a class="col-6 col-xl-2 fot_0pad zero_lpad" href="src/images/galeria2.png" data-lightbox="gallery"><img
+                        class="fot2" src="src/images/galeria2.png"></a>
+                <div class="col-11 col-xl-2 zero_rpad">
+                    <div class="col title title_wrapper">
+                        <div>NASZE DZIEŁA</div>
+                    </div>
+                </div>
+                <a class="col-6 col-xl-2 fot1_a" href="src/images/galeria31.png" data-lightbox="gallery"><img
+                        class="fot3" src="src/images/galeria31.png"></a>
+                <a class="col-6 col-xl-2 fot1_a zero_lpad" href="src/images/galeria4.png" data-lightbox="gallery"><img
+                        class="fot4" src="src/images/galeria4.png"></a>
+                <a class="col-6 col-xl-2 fot1_a" href="src/images/galeria5.png" data-lightbox="gallery"><img
+                        class="row d-none d-xl-block fot5" src="src/images/galeria5.png"></a>
+            </div>
+        </section>
+        <section class="design row">
+            <div class="col d-flex justify-content-center">
+                <hr class="d-none d-xl-block">
+                <h3>designed in Italy</h3>
+                <hr class="d-none d-xl-block">
+            </div>
+        </section>
+        <section class="button row">
+            <div class="col d-flex justify-content-center">
+                <p>MAPA NASZYCH SALONÓW</p>
+                <a href="#"><img src="src/images/button.png"></a>
+            </div>
+        </section>
+        <footer id="kontakt">
+            <div class="row justify-content-center d-md-none">
+                <div class="col-md">
+                    <img class="d-none d-md-block footer_logo col" src="src/images/logo.png" alt="logo intenso">
+                </div>
+                <div clas="col-md">
+                    <div class="row justify-content-center">
+                        <p class="tel">TELEFON</p>
+                        <p><sup>+48</sup>239 328 239</p>
+                    </div>
+                    <div class="row justify-content-center">
+                        <p class="mail">E-MAIL</p>
+                        <p>biuro@intenso.pl</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center copyrights d-md-none">
+                <span class="ciemne">All rights reserved</span>
+                <span class="jasne"> &copy; 2021 NVOptica</span>
+            </div>
+            <div class="row d-none d-md-flex flex-nowrap">
+                <div class="row-col-2 d-flex flex-wrap justify-content-end footer_white">
+                    <div class="d-flex flex-column justify-content-between">
+                        <img class="d-none d-md-flex footer_logo" src="src/images/logo.png" alt="logo intenso">
+                        <div class="copyrights_md row justify-content-end">
+                            <span class="ciemne">All rights reserved</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-col-2 d-flex flex-column justify-content-start footer_black">
+                    <div class="row justify-content-start">
+                        <p class="tel">TELEFON</p>
+                        <p class="number"><sup>+48</sup>239 328 239</p>
+                    </div>
+                    <div class="row justify-content-start">
+                        <p class="mail">E-MAIL</p>
+                        <p class="address">biuro@intenso.pl</p>
+                    </div>
+                    <div class="copyrights_md row justify-content-start">
+                        <span class="jasne"> &copy; 2021 NVOptica</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="./src/style/menu.js"></script>
+        <script src="./dist/main.js"></script>
+        <script src="node_modules/lightbox2/dist/js/lightbox.js"></script>
+</body>
+
+</html>

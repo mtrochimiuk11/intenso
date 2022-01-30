@@ -1,0 +1,550 @@
+@import "components/footer";
+
+@import "font_intenso/fonts.css";
+
+* {
+    font-family: 'BarlowCondensed';
+}
+
+body { 
+    background-color: #e5e4e2;
+    max-width: 100vw;
+}
+
+
+.wrapper {   
+    max-width: 100vw;
+    overflow: hidden;
+    background-color: #e5e4e2;
+}
+
+
+footer,
+#galeria,
+.button,
+.design
+ {
+    max-width: 100vw;
+    overflow: hidden;
+}
+
+
+
+header {
+    overflow: hidden;
+    background-color: white;
+}
+
+/*////////////// MENU ///////////////*/
+.menu_bar {
+    margin-top: 10px 0;
+}
+
+.logo {
+    max-width: 150px;
+    margin: 15px 0 15px 10px;
+}
+    
+.menu_icon div {
+    width: 35px;
+    height: 5px;    
+    background-color: black;
+    margin: 6px 0;
+}
+
+.menu_mobile {  
+    width: 100vw;
+}
+
+.navbar-collapse {
+    padding-left: 43vw;  
+    margin: 15px 0 10px;
+    font-size: 1.2em;   
+    overflow: hidden;
+}
+
+.nav-list{
+    text-align: center;
+    padding: 0;
+}
+
+.nav-item {
+    list-style-type: none;
+    a:hover {
+        text-decoration: underline red;
+        color: black;
+    }
+}
+
+.nav-link {
+    font-weight: 500;
+    color: black;
+}
+/*//////TYTU.. STRONY////////*/
+
+.top_photo img {
+    height: 69vw;
+    position: relative;   
+    left: 5vw;
+}
+
+h1 {
+    text-align: center;    
+    font-weight: 300;
+    font-size: 4em;
+    padding: 0 15px;
+    color: white;   
+    position: relative;
+    bottom: 50vw;
+    text-shadow: 1px 10px 20px black;   
+    line-height: 0.8em;
+    letter-spacing: -2px;
+    span {    
+        font-weight: 400;
+        position: relative;
+        left: 10px;
+        font-size: 0.85em;
+    } 
+}
+
+
+/*//////////O NAS/////////*/
+
+#o_nas {    
+    overflow: hidden;
+    position: relative;
+    bottom: 160px;   
+    background-image: url(../images/oprawki.png);
+    background-position-x: 150vw;
+    background-size: cover;
+    flex-direction: column;   
+    align-items: center;
+    z-index: 1;
+    img {
+        overflow: hidden;    
+        max-width: 50vw;
+        margin-top: 95px;
+    }
+}
+
+
+.description {
+    display: flex;    
+    flex-direction: column;
+    text-align: center;
+    p {
+        padding: 10px 30px 30px 30px;
+        text-align: left;  
+        line-height: 1.8;
+        font-size: 1.1em;
+    }
+}
+
+h4 {
+    font-weight: 300; 
+    font-size: 2.2em;
+    padding-top: 20px;    
+    letter-spacing: 1rem;
+    line-height: 1.5;   
+    margin-top: -8vw;
+}
+
+/*//////////GALERIA/////////*/
+
+#galeria {
+    position: relative;
+    bottom: 160px;
+    overflow: hidden;
+    background-color: #1a1a18;
+    margin-bottom: -100px;
+}
+
+.zero_lpad {
+    padding-left: 0 !important;
+}
+
+
+#galeria img {
+    padding: 0;
+    border: 2px solid #e5e4e2;
+    height: 50vw;
+    object-fit: fill;
+}
+
+.title_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    height: 35vw;
+    color: white;
+    background-color: #1a1a18;
+    text-align: center;    
+    align-items: center;
+    font-size: 15vw;
+    font-weight: 100;
+    border: 2px solid white;  
+    margin: 5vw;
+}
+
+h3 {
+    font-weight: 300;   
+    text-align: center;
+    letter-spacing: 0.6rem;
+    font-size: 2em;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    padding: 5vw;    
+    line-height: 1.5;
+    position: relative;
+    bottom: 90px;    
+    margin: 0 30px;
+}
+
+/*//////////MAPA/////////*/
+
+.design {
+    padding-top: 100px;
+}
+
+.button {
+    position: relative;
+    bottom: 20px;
+    margin-top: -16px;
+    margin-bottom: 50px;
+    p {
+        font-size: 1.2em;
+        letter-spacing: 5px;
+        margin-right: 2vw;
+        margin-left: 5vw;
+    }
+    img {
+        height: 30px;
+        padding-left: 0vw;
+    }
+    
+}
+
+.tel {
+    margin-left: 10px;
+    margin-right: 25px;
+}
+
+.mail {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.tel,
+.mail {
+    width: 120px;   
+    text-align: center;
+    letter-spacing: 3px;   
+    border: 1px solid white;
+}
+
+.copyrights {
+    font-size: 0.5em;
+    letter-spacing: 3px;
+    margin-top: 10px;
+    p {
+        margin: 0;
+    }
+}
+
+
+@media screen and (min-width: 768px) 
+{   
+    .menu_bar {
+        margin-bottom: 0;
+    }
+
+    .logo {
+        max-width: 250px;
+        margin: 15px 0 15px 10px;
+        }
+            
+    .menu_icon {   
+        margin-right: 15px;
+    }
+    
+    h1 {
+    font-size: 5.5em;
+    letter-spacing: 2px;
+    }
+
+    .navbar-collapse {
+        margin-top: 10px;    
+        font-size: 1.4em;
+    }   
+ 
+    #o_nas img {  
+        margin-top: 75px;
+        margin-bottom: 20px;   
+        max-width: 250px;
+    }
+
+    .description p { 
+       margin: 10px 170px 30px 170px;
+    }
+
+    
+
+    .footer_white {
+        width: 55vw;    
+        background-color: #e5e4e2; 
+        color: #1a1a18;
+        margin-left: 15px;
+        transform: skew(-20deg, 0deg);       
+        position: relative;
+        right: 30px;
+    }
+
+    .footer_logo {
+        padding-top: 35px; 
+        margin-right: 10vw;     
+        width: 250px;
+        transform: skew(20deg, 0deg);
+    }  
+    
+    .copyrights_md {    
+        font-size: 0.6em;   
+        letter-spacing: 3px;
+        &:first-of-type {
+            transform: skew(20deg, 0deg);      
+            margin-right: -45px;
+        }  
+        &:last-of-type {
+            position: relative;    
+            right: 55px;
+        }
+    }
+
+   .footer_black {
+        width: 45vw;
+        background-color: #1a1a18;
+        p {
+            margin-left: 0px;    
+        }
+    }
+    
+    .mail,  
+    .tel {
+        margin-left: 30px;
+    }
+    
+    footer .number, 
+    footer .address {
+        font-size: 1.1em; 
+    }
+    
+    .footer_black {      
+        padding-left: 30px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    nav {
+        border: 1px solid black;
+        margin: 20px 15px;   
+    }    
+
+    .navbar-collapse { 
+        margin: 15px 0px 5px;   
+        font-size: 1.2em;
+       padding-left: 15px;
+    }
+    
+    .nav-list {      
+        margin: 5px 0 10px;
+        li { 
+            display: inline;        
+            margin: 0 10px;
+            letter-spacing: 3px;
+            a {       
+                font-weight: 500;
+            } 
+        }
+    }
+
+    .menu_bar {      
+        margin: 0px;
+        img {
+            width: 100px;
+        }
+    }
+
+    .logo_medium {       
+        margin-left: 350px;
+        margin-bottom: 15px;
+        width: 100px;
+    }
+    
+    .italy_design {
+        height: 15px;
+        img {
+            height: 11px;     
+            margin-top: 3px;
+        }
+        p {
+            margin: 0;
+        }
+    }   
+   
+   .top_photo img {
+        width: 101vw;      
+        height: auto;
+        position: relative;    
+        left: 0;   
+        z-index: 2;
+    }
+
+    h1 {
+        bottom: 28vw;
+        font-size: 6em; 
+        z-index: 3;
+        span {        
+            font-size: 0.9em;
+            font-weight: 600;    
+            bottom: 10px;
+            left: 18px
+        }    
+    }
+    
+    #o_nas {       
+        background-position-x: 110vw; 
+        bottom: 200px;
+        height: 51vw;
+        flex-direction: row;
+        justify-content: space-between;
+        img {
+            max-width: 300px;   
+        }
+    }
+
+    .description {
+        top: 160px;
+
+        h4 {     
+            letter-spacing: 10px;       
+            font-size: 1.8em;
+        }
+        p {  
+            max-width: 100%;
+            margin: 0px;    
+        }
+    }
+    #galeria {
+        bottom: 200px;
+        
+    }
+    
+}
+
+
+@media screen and (min-width: 1200px) { 
+    
+    h1 {        
+    font-size: 7.5em;
+    }
+
+    #o_nas {
+        bottom: 280px;   
+        background-position-x: 100vw;
+        img {    
+            max-width: clamp(380px, 30vw, 500px);
+            margin-top: 12.5vw;
+        }
+    }
+
+    .description {
+        margin-top: 10vw;
+        p {
+            max-width: 75%;      
+            margin-left: 7vw;
+        }      
+    }
+    
+    .title {     
+        writing-mode: sideways-lr; 
+        margin: 10px 0px 0px 0px;
+        height: 48.5vw;
+        &_wrapper {
+            font-size: 7vw;
+        }
+    }
+
+    .zero_rpad {
+        padding-right: 0 !important;
+    }
+    
+    #galeria { 
+        bottom: 280px;
+        img {
+        object-fit: cover;  
+    }
+    }
+    
+    hr {  
+        width: 110px;
+        height: 5px;       
+        background-color: black;      
+        margin: 6px 0; 
+    }    
+    
+    .photo_container {
+        overflow: hidden;
+    }
+
+    .title_div {
+        padding-left: 15px;
+    }
+
+    .fot_0pad {
+        padding: 0 !important;
+    }
+
+    .fot1 {
+        width: 100%;
+    }
+
+    .fot2 {
+        object-position: -14.5vw;
+        width: 100%;
+    }   
+    
+    .fot3 {       
+        object-position: -42vw;
+    }
+    
+    .fot4 {    
+        object-position: -61vw;    
+    }
+    
+    .fot5 { 
+       margin-left: 0px;       
+        object-position: -28vw;
+    }
+    
+    h3 {       
+        border: none; 
+        padding: 73px 0 60px;   
+        font-size: 2.3em;
+        letter-spacing: 1rem;    
+    }
+
+    .design {
+        position: relative;
+        bottom: 50px;
+    }
+
+    .button {     
+        position: relative;
+        bottom: 65px;
+        font-size: 1.2em;
+        p {
+            letter-spacing: 1px; 
+        }
+    }
+}
